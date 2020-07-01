@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>to-Do/Styleswitch</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js" defer="defer"></script>
+
+</head>
+<body class="light">
+    <main id="wrapper">
+        <div id = "header">
+            <h1>Meine to Do's </h1>
+            <div id="inputWrap">
+                <input type="text" id="textfeld">
+                <div id="sendBtn">send</div>
+            </div>
+            </div>
+        
+                <ul id="mainListe">
+                </ul>
+        
+            <div id="vorgefertigteListe">
+                    <span id="RandomFetch" onclick="getRandomActivityViaFetch()">Vorschläge</span>
+            </div>
+        
+            <span id="designToggle"> toggle Design </span> 
+    </main>
+</body>
+</html>
